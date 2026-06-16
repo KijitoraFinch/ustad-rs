@@ -1,0 +1,13 @@
+[package]
+name = "ustad"
+version = "0.1.0"
+edition = "2024"
+description = "Safe, zero-copy parser for UTAU UST project files"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/KijitoraFinch/ustad-rs"
+readme = "README.md"
+keywords = ["utau", "ust", "parser", "singing", "synthesis"]
+categories = ["parser-implementations", "multimedia::audio"]
+
+[dependencies]
+encoding_rs = "0.8"
